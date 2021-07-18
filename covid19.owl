@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abolfazl/ontologies/2021/6/untitled-ontology-38#"
+     xml:base="http://www.semanticweb.org/abolfazl/ontologies/2021/6/untitled-ontology-38"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Active -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Active">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Cases"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Cases -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Cases">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Tests"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Death -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Death">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Cases"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Recovered -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Recovered">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Cases"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Tests -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Tests">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/rateOfOccupiedICUBeds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/rateOfOccupiedICUBeds">
+        <rdfs:subPropertyOf rdf:resource="https://schema.org/bed"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/rateeOfOccupiedHospitalBeds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/rateeOfOccupiedHospitalBeds">
+        <rdfs:subPropertyOf rdf:resource="https://schema.org/bed"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://schema.org/bed -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/bed"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/emergency_use"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/full_use"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/human_trials"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine">
+        <rdfs:subClassOf rdf:resource="https://schema.org/primaryPrevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Airline -->
+
+    <owl:Class rdf:about="https://schema.org/Airline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Country -->
+
+    <owl:Class rdf:about="https://schema.org/Country">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Place -->
+
+    <owl:Class rdf:about="https://schema.org/Place"/>
+    
+
+
+    <!-- https://schema.org/School -->
+
+    <owl:Class rdf:about="https://schema.org/School">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/State -->
+
+    <owl:Class rdf:about="https://schema.org/State">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/primaryPrevention -->
+
+    <owl:Class rdf:about="https://schema.org/primaryPrevention"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/emergency_use -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/emergency_use">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/full_use -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/full_use">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/human_trials -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/human_trials">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2002/07/Adenovirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/Adenovirus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://dbpedia.org/resource/Adenoviridae</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2002/07/Inactivated -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/Inactivated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://dbpedia.org/resource/Inactivated_vaccine</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2002/07/RNA -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/RNA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://dbpedia.org/resource/RNA</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2002/07/Subunit -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/Subunit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://dbpedia.org/resource/Protein_subunit</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Active"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Recovered"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
