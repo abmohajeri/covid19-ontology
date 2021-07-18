@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"B","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A* \nTypes: VaccineTech\nAnnotations: owl:sameAs @B*","active":true}]}
