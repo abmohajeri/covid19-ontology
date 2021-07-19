@@ -38,6 +38,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/airlineOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/airlineOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirline"/>
+        <rdfs:domain rdf:resource="https://schema.org/Airline"/>
+        <rdfs:range rdf:resource="https://schema.org/Country"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/countryWiseStatistic -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/countryWiseStatistic">
@@ -116,6 +126,7 @@
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasTech -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasTech">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/techOf"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
     </owl:ObjectProperty>
@@ -125,6 +136,7 @@
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasVaccine -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasVaccine">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/vaccineOf"/>
         <rdfs:domain rdf:resource="https://schema.org/Country"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
     </owl:ObjectProperty>
@@ -147,6 +159,24 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatistic"/>
         <rdfs:domain rdf:resource="https://schema.org/State"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/StateWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/techOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/techOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/vaccineOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/vaccineOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+        <rdfs:range rdf:resource="https://schema.org/Country"/>
     </owl:ObjectProperty>
     
 
