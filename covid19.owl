@@ -30,6 +30,130 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/countryWiseStatistic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/countryWiseStatistic">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatistic"/>
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/CountryWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirline">
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="https://schema.org/Airline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirlineRestriction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirlineRestriction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction"/>
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/AirlineRestriction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction">
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasSchoolRestriction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasSchoolRestriction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction"/>
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/SchoolRestriction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasState">
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="https://schema.org/State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatistic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatistic">
+        <rdfs:domain rdf:resource="https://schema.org/Place"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasTech -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasTech">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasVaccine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasVaccine">
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/hasWorkPlaceRestriction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasWorkPlaceRestriction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction"/>
+        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlaceRestriction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/stateWiseStatistic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/stateWiseStatistic">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasStatistic"/>
+        <rdfs:domain rdf:resource="https://schema.org/State"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/StateWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -122,9 +246,41 @@
     
 
 
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/AirlineRestriction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/AirlineRestriction">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Airline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/CountryWiseStatistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/CountryWiseStatistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/SchoolRestriction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/SchoolRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/StateWiseStatistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/StateWiseStatistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Statistics"/>
+    </owl:Class>
     
 
 
@@ -160,15 +316,13 @@
 
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Vaccine"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/VaccineTech"/>
     
 
 
-    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlace -->
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlaceRestriction -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlace">
+    <owl:Class rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/WorkPlaceRestriction">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
     </owl:Class>
     
@@ -193,14 +347,6 @@
     <!-- https://schema.org/Place -->
 
     <owl:Class rdf:about="https://schema.org/Place"/>
-    
-
-
-    <!-- https://schema.org/School -->
-
-    <owl:Class rdf:about="https://schema.org/School">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Restriction"/>
-    </owl:Class>
     
 
 
