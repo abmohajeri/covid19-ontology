@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"B","endColumn":"C","startRow":"2","endRow":"+","comment":"","rule":"Individual: @J*(mm:capturing(\"([^\\/]+$)\") mm:prefix\u003d\"dbpedia\")\ntypes: Airline\nAnnotations: rdfs:label @I*\nFacts: airlineOf @B*","active":true}]}
