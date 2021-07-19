@@ -1,0 +1,2468 @@
+Date: 2021-07-19 08:55:10
+Ontology source: /C:/Users/Abolfazl/Desktop/covid19/covid19.owl
+Worksheet source: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vactech.xlsx
+Transformation rules: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vactech.json
+
+# Cell range: (Sheet1!A2:B+) Comment: ""
+# Individual: @B*(mm:capturing("([^\/]+$)") mm:prefix="dbpedia")
+# Types: VaccineTech
+# Annotations: rdfs:label @A*
+
+Individual: Adenoviridae  # Generated from value "Adenoviridae" located at cell 'Sheet1'!B2.
+   Types: VaccineTech
+   Annotations: rdfs:label "Adenovirus"
+Individual: RNA  # Generated from value "RNA" located at cell 'Sheet1'!B3.
+   Types: VaccineTech
+   Annotations: rdfs:label "RNA"
+Individual: Inactivated_vaccine  # Generated from value "Inactivated_vaccine" located at cell 'Sheet1'!B4.
+   Types: VaccineTech
+   Annotations: rdfs:label "Inactivated"
+Individual: Protein_subunit  # Generated from value "Protein_subunit" located at cell 'Sheet1'!B5.
+   Types: VaccineTech
+   Annotations: rdfs:label "Subunit"
+Individual: Adenoviridae  # Generated from value "Adenoviridae" located at cell 'Sheet1'!B2.
+   Types: VaccineTech
+   Annotations: rdfs:label "Adenovirus"
+Individual: RNA  # Generated from value "RNA" located at cell 'Sheet1'!B3.
+   Types: VaccineTech
+   Annotations: rdfs:label "RNA"
+Individual: Inactivated_vaccine  # Generated from value "Inactivated_vaccine" located at cell 'Sheet1'!B4.
+   Types: VaccineTech
+   Annotations: rdfs:label "Inactivated"
+Individual: Protein_subunit  # Generated from value "Protein_subunit" located at cell 'Sheet1'!B5.
+   Types: VaccineTech
+   Annotations: rdfs:label "Subunit"
+
+===========================================================================================================
+Date: 2021-07-19 08:59:35
+Ontology source: /C:/Users/Abolfazl/Desktop/covid19/covid19.owl
+Worksheet source: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vac.xlsx
+Transformation rules: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vaccine.json
+
+# Cell range: (Sheet1!A2:C+) Comment: ""
+# Individual: @A*(mm:prefix="dbpedia")
+# Types: Vaccine
+# Annotations: rdfs:label @A*
+# Facts: hasTech @C*,
+#             vaccineOf @B*
+
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+
+===========================================================================================================
+Date: 2021-07-19 09:04:13
+Ontology source: /C:/Users/Abolfazl/Desktop/covid19/covid19.owl
+Worksheet source: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vac.xlsx
+Transformation rules: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vaccine.json
+
+# Cell range: (Sheet1!A2:C+) Comment: ""
+# Individual: @A*(mm:prefix="dbpedia")
+# Types: Vaccine
+# Annotations: rdfs:label @A*
+# Facts: hasTech @C*,
+#             vaccineOf @B*,
+#             hasStatus emergency_use
+
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+Individual: Oxford–AstraZeneca COVID-19 vaccine  # Generated from value "Oxford–AstraZeneca COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C2.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B2.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Oxford–AstraZeneca COVID-19 vaccine"
+Individual: Pfizer–BioNTech COVID-19 vaccine  # Generated from value "Pfizer–BioNTech COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C3.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B3.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Pfizer–BioNTech COVID-19 vaccine"
+Individual: Janssen COVID-19 vaccine  # Generated from value "Janssen COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C4.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B4.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Janssen COVID-19 vaccine"
+Individual: BBIBP-CorV  # Generated from value "BBIBP-CorV" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C5.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B5.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "BBIBP-CorV"
+Individual: Moderna COVID-19 vaccine  # Generated from value "Moderna COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C6.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B6.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Moderna COVID-19 vaccine"
+Individual: Sputnik V COVID-19 vaccine  # Generated from value "Sputnik V COVID-19 vaccine" located at cell 'Sheet1'!A7.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C7.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B7.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik V COVID-19 vaccine"
+Individual: CoronaVac  # Generated from value "CoronaVac" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C8.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B8.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoronaVac"
+Individual: Covaxin  # Generated from value "Covaxin" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C9.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B9.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Covaxin"
+Individual: Sputnik Light  # Generated from value "Sputnik Light" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C10.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B10.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Sputnik Light"
+Individual: Convidecia  # Generated from value "Convidecia" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C11.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B11.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Convidecia"
+Individual: WIBP-CorV  # Generated from value "WIBP-CorV" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "WIBP-CorV"
+Individual: EpiVacCorona  # Generated from value "EpiVacCorona" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B13.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "EpiVacCorona"
+Individual: ZF2001  # Generated from value "ZF2001" located at cell 'Sheet1'!A14.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "ZF2001"
+Individual: Abdala  # Generated from value "Abdala" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B15.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Abdala"
+Individual: CoviVac  # Generated from value "CoviVac" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C16.,
+         vaccineOf "Russia"  # Generated from value "Russia" located at cell 'Sheet1'!B16.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "CoviVac"
+Individual: QazCovid-in  # Generated from value "QazCovid-in" located at cell 'Sheet1'!A17.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C17.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B17.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "QazCovid-in"
+Individual: Minhai COVID-19 vaccine  # Generated from value "Minhai COVID-19 vaccine" located at cell 'Sheet1'!A18.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C18.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B18.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Minhai COVID-19 vaccine"
+Individual: COVIran Barakat  # Generated from value "COVIran Barakat" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C19.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B19.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "COVIran Barakat"
+Individual: Chinese Academy of Medical Sciences COVID-19 vaccine  # Generated from value "Chinese Academy of Medical Sciences COVID-19 vaccine" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Chinese Academy of Medical Sciences COVID-19 vaccine"
+Individual: Soberana 02  # Generated from value "Soberana 02" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Cuba"  # Generated from value "Cuba" located at cell 'Sheet1'!B21.,
+         hasStatus emergency_use
+   Types: Vaccine
+   Annotations: rdfs:label "Soberana 02"
+
+===========================================================================================================
+Date: 2021-07-19 09:05:42
+Ontology source: /C:/Users/Abolfazl/Desktop/covid19/covid19.owl
+Worksheet source: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\human_vac.xlsx
+Transformation rules: C:\Users\Abolfazl\Desktop\covid19\datasets\vaccines\vaccine.json
+
+# Cell range: (Sheet1!A2:C+) Comment: ""
+# Individual: @A*(mm:prefix="dbpedia")
+# Types: Vaccine
+# Annotations: rdfs:label @A*
+# Facts: hasTech @C*,
+#             vaccineOf @B*,
+#             hasStatus human_trials
+
+Individual: Novavax COVID-19 vaccine  # Generated from value "Novavax COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C2.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B2.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Novavax COVID-19 vaccine"
+Individual: Sanofi–GSK COVID-19 vaccine  # Generated from value "Sanofi–GSK COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C3.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B3.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–GSK COVID-19 vaccine"
+Individual: CureVac COVID-19 vaccine  # Generated from value "CureVac COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C4.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B4.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CureVac COVID-19 vaccine"
+Individual: CoVLP  # Generated from value "CoVLP" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Virus-like particles"  # Generated from value "Virus-like particles" located at cell 'Sheet1'!C5.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B5.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVLP"
+Individual: Valneva COVID-19 vaccine  # Generated from value "Valneva COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C6.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B6.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Valneva COVID-19 vaccine"
+Individual: ZyCoV-D  # Generated from value "ZyCoV-D" located at cell 'Sheet1'!A7.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C7.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B7.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ZyCoV-D"
+Individual: Nanocovax  # Generated from value "Nanocovax" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C8.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B8.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Nanocovax"
+Individual: UB-612  # Generated from value "UB-612" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C9.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B9.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "UB-612"
+Individual: MVC COVID-19 Vaccine  # Generated from value "MVC COVID-19 Vaccine" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C10.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B10.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVC COVID-19 Vaccine"
+Individual: TURKOVAC  # Generated from value "TURKOVAC" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C11.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B11.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TURKOVAC"
+Individual: West China Hospital COVID-19 vaccine  # Generated from value "West China Hospital COVID-19 vaccine" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "West China Hospital COVID-19 vaccine"
+Individual: SCB-2019  # Generated from value "SCB-2019" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B13.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2019"
+Individual: Walvax COVID-19 vaccine  # Generated from value "Walvax COVID-19 vaccine" located at cell 'Sheet1'!A14.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Walvax COVID-19 vaccine"
+Individual: Bio E COVID-19  # Generated from value "Bio E COVID-19" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B15.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bio E COVID-19"
+Individual: GRAd-COV2  # Generated from value "GRAd-COV2" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C16.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B16.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GRAd-COV2"
+Individual: Inovio COVID-19 Vaccine  # Generated from value "Inovio COVID-19 Vaccine" located at cell 'Sheet1'!A17.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C17.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B17.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Inovio COVID-19 Vaccine"
+Individual: AG0302-COVID‑19  # Generated from value "AG0302-COVID‑19" located at cell 'Sheet1'!A18.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C18.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B18.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AG0302-COVID‑19"
+Individual: V-01  # Generated from value "V-01" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C19.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B19.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V-01"
+Individual: DelNS1-2019-nCoV-RBD-OPT  # Generated from value "DelNS1-2019-nCoV-RBD-OPT" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DelNS1-2019-nCoV-RBD-OPT"
+Individual: Razi Cov Pars  # Generated from value "Razi Cov Pars" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B21.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Razi Cov Pars"
+Individual: FAKHRAVAC  # Generated from value "FAKHRAVAC" located at cell 'Sheet1'!A22.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C22.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B22.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "FAKHRAVAC"
+Individual: Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine  # Generated from value "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine" located at cell 'Sheet1'!A23.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C23.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B23.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine"
+Individual: COVAX-19  # Generated from value "COVAX-19" located at cell 'Sheet1'!A24.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C24.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B24.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAX-19"
+Individual: Phase II  # Generated from value "Phase II" located at cell 'Sheet1'!A25.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C25.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B25.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase II"
+Individual: SCB-2020S  # Generated from value "SCB-2020S" located at cell 'Sheet1'!A26.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C26.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B26.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2020S"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A27.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C27.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B27.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: BriLife  # Generated from value "BriLife" located at cell 'Sheet1'!A28.
+   Facts: hasTech "Vesicular stomatitis"  # Generated from value "Vesicular stomatitis" located at cell 'Sheet1'!C28.,
+         vaccineOf "Israel"  # Generated from value "Israel" located at cell 'Sheet1'!B28.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BriLife"
+Individual: Arcturus COVID-19 vaccine  # Generated from value "Arcturus COVID-19 vaccine" located at cell 'Sheet1'!A29.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C29.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B29.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Arcturus COVID-19 vaccine"
+Individual: VBI-2902  # Generated from value "VBI-2902" located at cell 'Sheet1'!A30.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C30.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B30.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VBI-2902"
+Individual: NDV-HXP-S  # Generated from value "NDV-HXP-S" located at cell 'Sheet1'!A31.
+   Facts: hasTech "Newcastle disease virus"  # Generated from value "Newcastle disease virus" located at cell 'Sheet1'!C31.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B31.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NDV-HXP-S"
+Individual: Sanofi–Translate Bio COVID-19 vaccine  # Generated from value "Sanofi–Translate Bio COVID-19 vaccine" located at cell 'Sheet1'!A32.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C32.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B32.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–Translate Bio COVID-19 vaccine"
+Individual: EuCorVac-19  # Generated from value "EuCorVac-19" located at cell 'Sheet1'!A33.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C33.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B33.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EuCorVac-19"
+Individual: RBD SARS-CoV-2 HBsAg VLP  # Generated from value "RBD SARS-CoV-2 HBsAg VLP" located at cell 'Sheet1'!A34.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C34.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B34.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "RBD SARS-CoV-2 HBsAg VLP"
+Individual: GX-19  # Generated from value "GX-19" located at cell 'Sheet1'!A35.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C35.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B35.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GX-19"
+Individual: AV-COVID-19  # Generated from value "AV-COVID-19" located at cell 'Sheet1'!A36.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C36.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B36.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AV-COVID-19"
+Individual: COVID-eVax  # Generated from value "COVID-eVax" located at cell 'Sheet1'!A37.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C37.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B37.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID-eVax"
+Individual: ChulaCov19  # Generated from value "ChulaCov19" located at cell 'Sheet1'!A38.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C38.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B38.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChulaCov19"
+Individual: COVID‑19/aAPC  # Generated from value "COVID‑19/aAPC" located at cell 'Sheet1'!A39.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C39.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B39.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID‑19/aAPC"
+Individual: LV-SMENP-DC  # Generated from value "LV-SMENP-DC" located at cell 'Sheet1'!A40.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C40.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B40.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LV-SMENP-DC"
+Individual: ImmunityBio COVID-19 vaccine  # Generated from value "ImmunityBio COVID-19 vaccine" located at cell 'Sheet1'!A41.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C41.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B41.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ImmunityBio COVID-19 vaccine"
+Individual: HGC019  # Generated from value "HGC019" located at cell 'Sheet1'!A42.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C42.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B42.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HGC019"
+Individual: PTX-COVID19-B  # Generated from value "PTX-COVID19-B" located at cell 'Sheet1'!A43.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C43.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B43.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "PTX-COVID19-B"
+Individual: COVAC-2  # Generated from value "COVAC-2" located at cell 'Sheet1'!A44.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C44.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B44.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAC-2"
+Individual: COVI-VAC  # Generated from value "COVI-VAC" located at cell 'Sheet1'!A45.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C45.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B45.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVI-VAC"
+Individual: CoV2 SAM (LNP)  # Generated from value "CoV2 SAM (LNP)" located at cell 'Sheet1'!A46.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C46.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B46.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2 SAM (LNP)"
+Individual: COVIGEN  # Generated from value "COVIGEN" located at cell 'Sheet1'!A47.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C47.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B47.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVIGEN"
+Individual: BBV154  # Generated from value "BBV154" located at cell 'Sheet1'!A48.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C48.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B48.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BBV154"
+Individual: MV-014-212  # Generated from value "MV-014-212" located at cell 'Sheet1'!A49.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C49.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B49.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MV-014-212"
+Individual: S-268019  # Generated from value "S-268019" located at cell 'Sheet1'!A50.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C50.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B50.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "S-268019"
+Individual: GBP510  # Generated from value "GBP510" located at cell 'Sheet1'!A51.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C51.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B51.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GBP510"
+Individual: KBP-201  # Generated from value "KBP-201" located at cell 'Sheet1'!A52.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C52.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B52.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KBP-201"
+Individual: AdCLD-CoV19  # Generated from value "AdCLD-CoV19" located at cell 'Sheet1'!A53.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C53.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B53.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCLD-CoV19"
+Individual: AdimrSC-2f  # Generated from value "AdimrSC-2f" located at cell 'Sheet1'!A54.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C54.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B54.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdimrSC-2f"
+Individual: AKS-452  # Generated from value "AKS-452" located at cell 'Sheet1'!A55.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C55.,
+         vaccineOf "Netherlands"  # Generated from value "Netherlands" located at cell 'Sheet1'!B55.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AKS-452"
+Individual: GLS-5310  # Generated from value "GLS-5310" located at cell 'Sheet1'!A56.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C56.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B56.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GLS-5310"
+Individual: Covigenix VAX-001  # Generated from value "Covigenix VAX-001" located at cell 'Sheet1'!A57.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C57.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B57.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Covigenix VAX-001"
+Individual: COH04S1  # Generated from value "COH04S1" located at cell 'Sheet1'!A58.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C58.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B58.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COH04S1"
+Individual: NBP2001  # Generated from value "NBP2001" located at cell 'Sheet1'!A59.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C59.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B59.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NBP2001"
+Individual: CoVac-1  # Generated from value "CoVac-1" located at cell 'Sheet1'!A60.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C60.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B60.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVac-1"
+Individual: bacTRL-Spike  # Generated from value "bacTRL-Spike" located at cell 'Sheet1'!A61.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C61.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B61.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "bacTRL-Spike"
+Individual: CORVax12  # Generated from value "CORVax12" located at cell 'Sheet1'!A62.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C62.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B62.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CORVax12"
+Individual: ChAdV68-S  # Generated from value "ChAdV68-S" located at cell 'Sheet1'!A63.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C63.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B63.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChAdV68-S"
+Individual: VXA-CoV2-1  # Generated from value "VXA-CoV2-1" located at cell 'Sheet1'!A64.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C64.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B64.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VXA-CoV2-1"
+Individual: SpFN COVID-19 vaccine  # Generated from value "SpFN COVID-19 vaccine" located at cell 'Sheet1'!A65.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C65.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B65.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SpFN COVID-19 vaccine"
+Individual: MVA-SARS-2-S  # Generated from value "MVA-SARS-2-S" located at cell 'Sheet1'!A66.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C66.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B66.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVA-SARS-2-S"
+Individual: ReCOV  # Generated from value "ReCOV" located at cell 'Sheet1'!A67.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C67.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B67.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ReCOV"
+Individual: Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine  # Generated from value "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine" located at cell 'Sheet1'!A68.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C68.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B68.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine"
+Individual: mRNA-1283  # Generated from value "mRNA-1283" located at cell 'Sheet1'!A69.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C69.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B69.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNA-1283"
+Individual: DS-5670  # Generated from value "DS-5670" located at cell 'Sheet1'!A70.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C70.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B70.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DS-5670"
+Individual: CoV2-OGEN1  # Generated from value "CoV2-OGEN1" located at cell 'Sheet1'!A71.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C71.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B71.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2-OGEN1"
+Individual: KD-414  # Generated from value "KD-414" located at cell 'Sheet1'!A72.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C72.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B72.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KD-414"
+Individual: CoVepiT  # Generated from value "CoVepiT" located at cell 'Sheet1'!A73.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C73.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B73.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVepiT"
+Individual: ABNCoV2  # Generated from value "ABNCoV2" located at cell 'Sheet1'!A74.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C74.,
+         vaccineOf "Denmark"  # Generated from value "Denmark" located at cell 'Sheet1'!B74.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ABNCoV2"
+Individual: HDT-301  # Generated from value "HDT-301" located at cell 'Sheet1'!A75.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C75.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B75.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HDT-301"
+Individual: SC-Ad6-1  # Generated from value "SC-Ad6-1" located at cell 'Sheet1'!A76.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C76.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B76.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SC-Ad6-1"
+Individual: Phase I  # Generated from value "Phase I" located at cell 'Sheet1'!A77.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C77.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B77.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I"
+Individual: EXG-5003  # Generated from value "EXG-5003" located at cell 'Sheet1'!A78.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C78.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B78.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EXG-5003"
+Individual: mRNACOVID-19 Vaccine  # Generated from value "mRNACOVID-19 Vaccine" located at cell 'Sheet1'!A79.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C79.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B79.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNACOVID-19 Vaccine"
+Individual: IVX-411  # Generated from value "IVX-411" located at cell 'Sheet1'!A80.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C80.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B80.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "IVX-411"
+Individual: QazCoVac-P  # Generated from value "QazCoVac-P" located at cell 'Sheet1'!A81.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C81.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B81.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "QazCoVac-P"
+Individual: LNP-nCOV saRNA-02  # Generated from value "LNP-nCOV saRNA-02" located at cell 'Sheet1'!A82.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C82.,
+         vaccineOf "Uganda"  # Generated from value "Uganda" located at cell 'Sheet1'!B82.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCOV saRNA-02"
+Individual: Noora  # Generated from value "Noora" located at cell 'Sheet1'!A83.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C83.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B83.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Noora"
+Individual: Baiya SARS-CoV-2 Vax 1  # Generated from value "Baiya SARS-CoV-2 Vax 1" located at cell 'Sheet1'!A84.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C84.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B84.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Baiya SARS-CoV-2 Vax 1"
+Individual: CVXGA1  # Generated from value "CVXGA1" located at cell 'Sheet1'!A85.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C85.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B85.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CVXGA1"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A86.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C86.,
+         vaccineOf "North Korea"  # Generated from value "North Korea" located at cell 'Sheet1'!B86.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A87.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C87.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B87.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: Vabiotech COVID-19 vaccine  # Generated from value "Vabiotech COVID-19 vaccine" located at cell 'Sheet1'!A88.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C88.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B88.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Vabiotech COVID-19 vaccine"
+Individual: INO-4802  # Generated from value "INO-4802" located at cell 'Sheet1'!A89.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C89.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B89.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "INO-4802"
+Individual: Bangavax  # Generated from value "Bangavax" located at cell 'Sheet1'!A90.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C90.,
+         vaccineOf "Bangladesh"  # Generated from value "Bangladesh" located at cell 'Sheet1'!B90.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bangavax"
+Individual: CV2CoV  # Generated from value "CV2CoV" located at cell 'Sheet1'!A91.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C91.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B91.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CV2CoV"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A92.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C92.,
+         vaccineOf "Malaysia"  # Generated from value "Malaysia" located at cell 'Sheet1'!B92.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: AdCOVID  # Generated from value "AdCOVID" located at cell 'Sheet1'!A93.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C93.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B93.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCOVID"
+Individual: LNP-nCoVsaRNA  # Generated from value "LNP-nCoVsaRNA" located at cell 'Sheet1'!A94.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C94.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B94.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCoVsaRNA"
+Individual: TMV-083  # Generated from value "TMV-083" located at cell 'Sheet1'!A95.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C95.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B95.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TMV-083"
+Individual: SARS-CoV-2 Sclamp  # Generated from value "SARS-CoV-2 Sclamp" located at cell 'Sheet1'!A96.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C96.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B96.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SARS-CoV-2 Sclamp"
+Individual: V590  # Generated from value "V590" located at cell 'Sheet1'!A97.
+   Facts: hasTech "Vesicular stomatitis virus"  # Generated from value "Vesicular stomatitis virus" located at cell 'Sheet1'!C97.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B97.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V590"
+Individual: Novavax COVID-19 vaccine  # Generated from value "Novavax COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C2.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B2.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Novavax COVID-19 vaccine"
+Individual: Sanofi–GSK COVID-19 vaccine  # Generated from value "Sanofi–GSK COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C3.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B3.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–GSK COVID-19 vaccine"
+Individual: CureVac COVID-19 vaccine  # Generated from value "CureVac COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C4.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B4.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CureVac COVID-19 vaccine"
+Individual: CoVLP  # Generated from value "CoVLP" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Virus-like particles"  # Generated from value "Virus-like particles" located at cell 'Sheet1'!C5.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B5.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVLP"
+Individual: Valneva COVID-19 vaccine  # Generated from value "Valneva COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C6.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B6.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Valneva COVID-19 vaccine"
+Individual: ZyCoV-D  # Generated from value "ZyCoV-D" located at cell 'Sheet1'!A7.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C7.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B7.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ZyCoV-D"
+Individual: Nanocovax  # Generated from value "Nanocovax" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C8.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B8.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Nanocovax"
+Individual: UB-612  # Generated from value "UB-612" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C9.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B9.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "UB-612"
+Individual: MVC COVID-19 Vaccine  # Generated from value "MVC COVID-19 Vaccine" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C10.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B10.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVC COVID-19 Vaccine"
+Individual: TURKOVAC  # Generated from value "TURKOVAC" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C11.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B11.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TURKOVAC"
+Individual: West China Hospital COVID-19 vaccine  # Generated from value "West China Hospital COVID-19 vaccine" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "West China Hospital COVID-19 vaccine"
+Individual: SCB-2019  # Generated from value "SCB-2019" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B13.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2019"
+Individual: Walvax COVID-19 vaccine  # Generated from value "Walvax COVID-19 vaccine" located at cell 'Sheet1'!A14.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Walvax COVID-19 vaccine"
+Individual: Bio E COVID-19  # Generated from value "Bio E COVID-19" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B15.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bio E COVID-19"
+Individual: GRAd-COV2  # Generated from value "GRAd-COV2" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C16.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B16.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GRAd-COV2"
+Individual: Inovio COVID-19 Vaccine  # Generated from value "Inovio COVID-19 Vaccine" located at cell 'Sheet1'!A17.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C17.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B17.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Inovio COVID-19 Vaccine"
+Individual: AG0302-COVID‑19  # Generated from value "AG0302-COVID‑19" located at cell 'Sheet1'!A18.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C18.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B18.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AG0302-COVID‑19"
+Individual: V-01  # Generated from value "V-01" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C19.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B19.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V-01"
+Individual: DelNS1-2019-nCoV-RBD-OPT  # Generated from value "DelNS1-2019-nCoV-RBD-OPT" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DelNS1-2019-nCoV-RBD-OPT"
+Individual: Razi Cov Pars  # Generated from value "Razi Cov Pars" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B21.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Razi Cov Pars"
+Individual: FAKHRAVAC  # Generated from value "FAKHRAVAC" located at cell 'Sheet1'!A22.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C22.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B22.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "FAKHRAVAC"
+Individual: Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine  # Generated from value "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine" located at cell 'Sheet1'!A23.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C23.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B23.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine"
+Individual: COVAX-19  # Generated from value "COVAX-19" located at cell 'Sheet1'!A24.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C24.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B24.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAX-19"
+Individual: Phase II  # Generated from value "Phase II" located at cell 'Sheet1'!A25.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C25.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B25.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase II"
+Individual: SCB-2020S  # Generated from value "SCB-2020S" located at cell 'Sheet1'!A26.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C26.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B26.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2020S"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A27.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C27.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B27.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: BriLife  # Generated from value "BriLife" located at cell 'Sheet1'!A28.
+   Facts: hasTech "Vesicular stomatitis"  # Generated from value "Vesicular stomatitis" located at cell 'Sheet1'!C28.,
+         vaccineOf "Israel"  # Generated from value "Israel" located at cell 'Sheet1'!B28.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BriLife"
+Individual: Arcturus COVID-19 vaccine  # Generated from value "Arcturus COVID-19 vaccine" located at cell 'Sheet1'!A29.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C29.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B29.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Arcturus COVID-19 vaccine"
+Individual: VBI-2902  # Generated from value "VBI-2902" located at cell 'Sheet1'!A30.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C30.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B30.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VBI-2902"
+Individual: NDV-HXP-S  # Generated from value "NDV-HXP-S" located at cell 'Sheet1'!A31.
+   Facts: hasTech "Newcastle disease virus"  # Generated from value "Newcastle disease virus" located at cell 'Sheet1'!C31.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B31.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NDV-HXP-S"
+Individual: Sanofi–Translate Bio COVID-19 vaccine  # Generated from value "Sanofi–Translate Bio COVID-19 vaccine" located at cell 'Sheet1'!A32.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C32.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B32.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–Translate Bio COVID-19 vaccine"
+Individual: EuCorVac-19  # Generated from value "EuCorVac-19" located at cell 'Sheet1'!A33.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C33.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B33.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EuCorVac-19"
+Individual: RBD SARS-CoV-2 HBsAg VLP  # Generated from value "RBD SARS-CoV-2 HBsAg VLP" located at cell 'Sheet1'!A34.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C34.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B34.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "RBD SARS-CoV-2 HBsAg VLP"
+Individual: GX-19  # Generated from value "GX-19" located at cell 'Sheet1'!A35.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C35.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B35.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GX-19"
+Individual: AV-COVID-19  # Generated from value "AV-COVID-19" located at cell 'Sheet1'!A36.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C36.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B36.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AV-COVID-19"
+Individual: COVID-eVax  # Generated from value "COVID-eVax" located at cell 'Sheet1'!A37.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C37.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B37.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID-eVax"
+Individual: ChulaCov19  # Generated from value "ChulaCov19" located at cell 'Sheet1'!A38.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C38.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B38.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChulaCov19"
+Individual: COVID‑19/aAPC  # Generated from value "COVID‑19/aAPC" located at cell 'Sheet1'!A39.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C39.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B39.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID‑19/aAPC"
+Individual: LV-SMENP-DC  # Generated from value "LV-SMENP-DC" located at cell 'Sheet1'!A40.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C40.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B40.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LV-SMENP-DC"
+Individual: ImmunityBio COVID-19 vaccine  # Generated from value "ImmunityBio COVID-19 vaccine" located at cell 'Sheet1'!A41.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C41.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B41.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ImmunityBio COVID-19 vaccine"
+Individual: HGC019  # Generated from value "HGC019" located at cell 'Sheet1'!A42.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C42.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B42.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HGC019"
+Individual: PTX-COVID19-B  # Generated from value "PTX-COVID19-B" located at cell 'Sheet1'!A43.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C43.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B43.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "PTX-COVID19-B"
+Individual: COVAC-2  # Generated from value "COVAC-2" located at cell 'Sheet1'!A44.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C44.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B44.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAC-2"
+Individual: COVI-VAC  # Generated from value "COVI-VAC" located at cell 'Sheet1'!A45.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C45.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B45.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVI-VAC"
+Individual: CoV2 SAM (LNP)  # Generated from value "CoV2 SAM (LNP)" located at cell 'Sheet1'!A46.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C46.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B46.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2 SAM (LNP)"
+Individual: COVIGEN  # Generated from value "COVIGEN" located at cell 'Sheet1'!A47.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C47.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B47.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVIGEN"
+Individual: BBV154  # Generated from value "BBV154" located at cell 'Sheet1'!A48.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C48.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B48.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BBV154"
+Individual: MV-014-212  # Generated from value "MV-014-212" located at cell 'Sheet1'!A49.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C49.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B49.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MV-014-212"
+Individual: S-268019  # Generated from value "S-268019" located at cell 'Sheet1'!A50.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C50.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B50.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "S-268019"
+Individual: GBP510  # Generated from value "GBP510" located at cell 'Sheet1'!A51.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C51.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B51.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GBP510"
+Individual: KBP-201  # Generated from value "KBP-201" located at cell 'Sheet1'!A52.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C52.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B52.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KBP-201"
+Individual: AdCLD-CoV19  # Generated from value "AdCLD-CoV19" located at cell 'Sheet1'!A53.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C53.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B53.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCLD-CoV19"
+Individual: AdimrSC-2f  # Generated from value "AdimrSC-2f" located at cell 'Sheet1'!A54.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C54.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B54.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdimrSC-2f"
+Individual: AKS-452  # Generated from value "AKS-452" located at cell 'Sheet1'!A55.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C55.,
+         vaccineOf "Netherlands"  # Generated from value "Netherlands" located at cell 'Sheet1'!B55.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AKS-452"
+Individual: GLS-5310  # Generated from value "GLS-5310" located at cell 'Sheet1'!A56.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C56.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B56.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GLS-5310"
+Individual: Covigenix VAX-001  # Generated from value "Covigenix VAX-001" located at cell 'Sheet1'!A57.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C57.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B57.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Covigenix VAX-001"
+Individual: COH04S1  # Generated from value "COH04S1" located at cell 'Sheet1'!A58.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C58.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B58.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COH04S1"
+Individual: NBP2001  # Generated from value "NBP2001" located at cell 'Sheet1'!A59.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C59.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B59.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NBP2001"
+Individual: CoVac-1  # Generated from value "CoVac-1" located at cell 'Sheet1'!A60.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C60.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B60.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVac-1"
+Individual: bacTRL-Spike  # Generated from value "bacTRL-Spike" located at cell 'Sheet1'!A61.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C61.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B61.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "bacTRL-Spike"
+Individual: CORVax12  # Generated from value "CORVax12" located at cell 'Sheet1'!A62.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C62.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B62.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CORVax12"
+Individual: ChAdV68-S  # Generated from value "ChAdV68-S" located at cell 'Sheet1'!A63.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C63.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B63.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChAdV68-S"
+Individual: VXA-CoV2-1  # Generated from value "VXA-CoV2-1" located at cell 'Sheet1'!A64.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C64.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B64.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VXA-CoV2-1"
+Individual: SpFN COVID-19 vaccine  # Generated from value "SpFN COVID-19 vaccine" located at cell 'Sheet1'!A65.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C65.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B65.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SpFN COVID-19 vaccine"
+Individual: MVA-SARS-2-S  # Generated from value "MVA-SARS-2-S" located at cell 'Sheet1'!A66.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C66.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B66.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVA-SARS-2-S"
+Individual: ReCOV  # Generated from value "ReCOV" located at cell 'Sheet1'!A67.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C67.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B67.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ReCOV"
+Individual: Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine  # Generated from value "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine" located at cell 'Sheet1'!A68.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C68.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B68.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine"
+Individual: mRNA-1283  # Generated from value "mRNA-1283" located at cell 'Sheet1'!A69.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C69.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B69.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNA-1283"
+Individual: DS-5670  # Generated from value "DS-5670" located at cell 'Sheet1'!A70.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C70.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B70.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DS-5670"
+Individual: CoV2-OGEN1  # Generated from value "CoV2-OGEN1" located at cell 'Sheet1'!A71.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C71.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B71.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2-OGEN1"
+Individual: KD-414  # Generated from value "KD-414" located at cell 'Sheet1'!A72.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C72.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B72.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KD-414"
+Individual: CoVepiT  # Generated from value "CoVepiT" located at cell 'Sheet1'!A73.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C73.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B73.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVepiT"
+Individual: ABNCoV2  # Generated from value "ABNCoV2" located at cell 'Sheet1'!A74.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C74.,
+         vaccineOf "Denmark"  # Generated from value "Denmark" located at cell 'Sheet1'!B74.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ABNCoV2"
+Individual: HDT-301  # Generated from value "HDT-301" located at cell 'Sheet1'!A75.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C75.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B75.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HDT-301"
+Individual: SC-Ad6-1  # Generated from value "SC-Ad6-1" located at cell 'Sheet1'!A76.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C76.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B76.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SC-Ad6-1"
+Individual: Phase I  # Generated from value "Phase I" located at cell 'Sheet1'!A77.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C77.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B77.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I"
+Individual: EXG-5003  # Generated from value "EXG-5003" located at cell 'Sheet1'!A78.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C78.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B78.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EXG-5003"
+Individual: mRNACOVID-19 Vaccine  # Generated from value "mRNACOVID-19 Vaccine" located at cell 'Sheet1'!A79.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C79.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B79.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNACOVID-19 Vaccine"
+Individual: IVX-411  # Generated from value "IVX-411" located at cell 'Sheet1'!A80.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C80.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B80.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "IVX-411"
+Individual: QazCoVac-P  # Generated from value "QazCoVac-P" located at cell 'Sheet1'!A81.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C81.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B81.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "QazCoVac-P"
+Individual: LNP-nCOV saRNA-02  # Generated from value "LNP-nCOV saRNA-02" located at cell 'Sheet1'!A82.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C82.,
+         vaccineOf "Uganda"  # Generated from value "Uganda" located at cell 'Sheet1'!B82.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCOV saRNA-02"
+Individual: Noora  # Generated from value "Noora" located at cell 'Sheet1'!A83.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C83.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B83.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Noora"
+Individual: Baiya SARS-CoV-2 Vax 1  # Generated from value "Baiya SARS-CoV-2 Vax 1" located at cell 'Sheet1'!A84.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C84.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B84.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Baiya SARS-CoV-2 Vax 1"
+Individual: CVXGA1  # Generated from value "CVXGA1" located at cell 'Sheet1'!A85.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C85.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B85.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CVXGA1"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A86.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C86.,
+         vaccineOf "North Korea"  # Generated from value "North Korea" located at cell 'Sheet1'!B86.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A87.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C87.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B87.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: Vabiotech COVID-19 vaccine  # Generated from value "Vabiotech COVID-19 vaccine" located at cell 'Sheet1'!A88.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C88.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B88.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Vabiotech COVID-19 vaccine"
+Individual: INO-4802  # Generated from value "INO-4802" located at cell 'Sheet1'!A89.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C89.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B89.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "INO-4802"
+Individual: Bangavax  # Generated from value "Bangavax" located at cell 'Sheet1'!A90.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C90.,
+         vaccineOf "Bangladesh"  # Generated from value "Bangladesh" located at cell 'Sheet1'!B90.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bangavax"
+Individual: CV2CoV  # Generated from value "CV2CoV" located at cell 'Sheet1'!A91.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C91.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B91.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CV2CoV"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A92.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C92.,
+         vaccineOf "Malaysia"  # Generated from value "Malaysia" located at cell 'Sheet1'!B92.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: AdCOVID  # Generated from value "AdCOVID" located at cell 'Sheet1'!A93.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C93.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B93.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCOVID"
+Individual: LNP-nCoVsaRNA  # Generated from value "LNP-nCoVsaRNA" located at cell 'Sheet1'!A94.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C94.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B94.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCoVsaRNA"
+Individual: TMV-083  # Generated from value "TMV-083" located at cell 'Sheet1'!A95.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C95.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B95.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TMV-083"
+Individual: SARS-CoV-2 Sclamp  # Generated from value "SARS-CoV-2 Sclamp" located at cell 'Sheet1'!A96.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C96.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B96.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SARS-CoV-2 Sclamp"
+Individual: V590  # Generated from value "V590" located at cell 'Sheet1'!A97.
+   Facts: hasTech "Vesicular stomatitis virus"  # Generated from value "Vesicular stomatitis virus" located at cell 'Sheet1'!C97.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B97.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V590"
+Individual: Novavax COVID-19 vaccine  # Generated from value "Novavax COVID-19 vaccine" located at cell 'Sheet1'!A2.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C2.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B2.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Novavax COVID-19 vaccine"
+Individual: Sanofi–GSK COVID-19 vaccine  # Generated from value "Sanofi–GSK COVID-19 vaccine" located at cell 'Sheet1'!A3.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C3.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B3.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–GSK COVID-19 vaccine"
+Individual: CureVac COVID-19 vaccine  # Generated from value "CureVac COVID-19 vaccine" located at cell 'Sheet1'!A4.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C4.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B4.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CureVac COVID-19 vaccine"
+Individual: CoVLP  # Generated from value "CoVLP" located at cell 'Sheet1'!A5.
+   Facts: hasTech "Virus-like particles"  # Generated from value "Virus-like particles" located at cell 'Sheet1'!C5.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B5.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVLP"
+Individual: Valneva COVID-19 vaccine  # Generated from value "Valneva COVID-19 vaccine" located at cell 'Sheet1'!A6.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C6.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B6.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Valneva COVID-19 vaccine"
+Individual: ZyCoV-D  # Generated from value "ZyCoV-D" located at cell 'Sheet1'!A7.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C7.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B7.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ZyCoV-D"
+Individual: Nanocovax  # Generated from value "Nanocovax" located at cell 'Sheet1'!A8.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C8.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B8.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Nanocovax"
+Individual: UB-612  # Generated from value "UB-612" located at cell 'Sheet1'!A9.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C9.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B9.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "UB-612"
+Individual: MVC COVID-19 Vaccine  # Generated from value "MVC COVID-19 Vaccine" located at cell 'Sheet1'!A10.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C10.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B10.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVC COVID-19 Vaccine"
+Individual: TURKOVAC  # Generated from value "TURKOVAC" located at cell 'Sheet1'!A11.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C11.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B11.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TURKOVAC"
+Individual: West China Hospital COVID-19 vaccine  # Generated from value "West China Hospital COVID-19 vaccine" located at cell 'Sheet1'!A12.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C12.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B12.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "West China Hospital COVID-19 vaccine"
+Individual: SCB-2019  # Generated from value "SCB-2019" located at cell 'Sheet1'!A13.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C13.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B13.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2019"
+Individual: Walvax COVID-19 vaccine  # Generated from value "Walvax COVID-19 vaccine" located at cell 'Sheet1'!A14.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C14.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B14.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Walvax COVID-19 vaccine"
+Individual: Bio E COVID-19  # Generated from value "Bio E COVID-19" located at cell 'Sheet1'!A15.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C15.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B15.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bio E COVID-19"
+Individual: GRAd-COV2  # Generated from value "GRAd-COV2" located at cell 'Sheet1'!A16.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C16.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B16.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GRAd-COV2"
+Individual: Inovio COVID-19 Vaccine  # Generated from value "Inovio COVID-19 Vaccine" located at cell 'Sheet1'!A17.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C17.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B17.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Inovio COVID-19 Vaccine"
+Individual: AG0302-COVID‑19  # Generated from value "AG0302-COVID‑19" located at cell 'Sheet1'!A18.
+   Facts: hasTech "DNA vaccine"  # Generated from value "DNA vaccine" located at cell 'Sheet1'!C18.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B18.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AG0302-COVID‑19"
+Individual: V-01  # Generated from value "V-01" located at cell 'Sheet1'!A19.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C19.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B19.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V-01"
+Individual: DelNS1-2019-nCoV-RBD-OPT  # Generated from value "DelNS1-2019-nCoV-RBD-OPT" located at cell 'Sheet1'!A20.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C20.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B20.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DelNS1-2019-nCoV-RBD-OPT"
+Individual: Razi Cov Pars  # Generated from value "Razi Cov Pars" located at cell 'Sheet1'!A21.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C21.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B21.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Razi Cov Pars"
+Individual: FAKHRAVAC  # Generated from value "FAKHRAVAC" located at cell 'Sheet1'!A22.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C22.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B22.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "FAKHRAVAC"
+Individual: Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine  # Generated from value "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine" located at cell 'Sheet1'!A23.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C23.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B23.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Zhongyianke Biotech–Liaoning Maokangyuan Biotech COVID-19 vaccine"
+Individual: COVAX-19  # Generated from value "COVAX-19" located at cell 'Sheet1'!A24.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C24.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B24.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAX-19"
+Individual: Phase II  # Generated from value "Phase II" located at cell 'Sheet1'!A25.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C25.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B25.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase II"
+Individual: SCB-2020S  # Generated from value "SCB-2020S" located at cell 'Sheet1'!A26.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C26.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B26.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SCB-2020S"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A27.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C27.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B27.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: BriLife  # Generated from value "BriLife" located at cell 'Sheet1'!A28.
+   Facts: hasTech "Vesicular stomatitis"  # Generated from value "Vesicular stomatitis" located at cell 'Sheet1'!C28.,
+         vaccineOf "Israel"  # Generated from value "Israel" located at cell 'Sheet1'!B28.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BriLife"
+Individual: Arcturus COVID-19 vaccine  # Generated from value "Arcturus COVID-19 vaccine" located at cell 'Sheet1'!A29.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C29.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B29.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Arcturus COVID-19 vaccine"
+Individual: VBI-2902  # Generated from value "VBI-2902" located at cell 'Sheet1'!A30.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C30.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B30.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VBI-2902"
+Individual: NDV-HXP-S  # Generated from value "NDV-HXP-S" located at cell 'Sheet1'!A31.
+   Facts: hasTech "Newcastle disease virus"  # Generated from value "Newcastle disease virus" located at cell 'Sheet1'!C31.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B31.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NDV-HXP-S"
+Individual: Sanofi–Translate Bio COVID-19 vaccine  # Generated from value "Sanofi–Translate Bio COVID-19 vaccine" located at cell 'Sheet1'!A32.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C32.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B32.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Sanofi–Translate Bio COVID-19 vaccine"
+Individual: EuCorVac-19  # Generated from value "EuCorVac-19" located at cell 'Sheet1'!A33.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C33.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B33.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EuCorVac-19"
+Individual: RBD SARS-CoV-2 HBsAg VLP  # Generated from value "RBD SARS-CoV-2 HBsAg VLP" located at cell 'Sheet1'!A34.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C34.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B34.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "RBD SARS-CoV-2 HBsAg VLP"
+Individual: GX-19  # Generated from value "GX-19" located at cell 'Sheet1'!A35.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C35.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B35.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GX-19"
+Individual: AV-COVID-19  # Generated from value "AV-COVID-19" located at cell 'Sheet1'!A36.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C36.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B36.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AV-COVID-19"
+Individual: COVID-eVax  # Generated from value "COVID-eVax" located at cell 'Sheet1'!A37.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C37.,
+         vaccineOf "Italy"  # Generated from value "Italy" located at cell 'Sheet1'!B37.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID-eVax"
+Individual: ChulaCov19  # Generated from value "ChulaCov19" located at cell 'Sheet1'!A38.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C38.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B38.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChulaCov19"
+Individual: COVID‑19/aAPC  # Generated from value "COVID‑19/aAPC" located at cell 'Sheet1'!A39.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C39.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B39.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVID‑19/aAPC"
+Individual: LV-SMENP-DC  # Generated from value "LV-SMENP-DC" located at cell 'Sheet1'!A40.
+   Facts: hasTech "Lentiviral"  # Generated from value "Lentiviral" located at cell 'Sheet1'!C40.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B40.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LV-SMENP-DC"
+Individual: ImmunityBio COVID-19 vaccine  # Generated from value "ImmunityBio COVID-19 vaccine" located at cell 'Sheet1'!A41.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C41.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B41.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ImmunityBio COVID-19 vaccine"
+Individual: HGC019  # Generated from value "HGC019" located at cell 'Sheet1'!A42.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C42.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B42.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HGC019"
+Individual: PTX-COVID19-B  # Generated from value "PTX-COVID19-B" located at cell 'Sheet1'!A43.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C43.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B43.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "PTX-COVID19-B"
+Individual: COVAC-2  # Generated from value "COVAC-2" located at cell 'Sheet1'!A44.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C44.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B44.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVAC-2"
+Individual: COVI-VAC  # Generated from value "COVI-VAC" located at cell 'Sheet1'!A45.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C45.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B45.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVI-VAC"
+Individual: CoV2 SAM (LNP)  # Generated from value "CoV2 SAM (LNP)" located at cell 'Sheet1'!A46.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C46.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B46.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2 SAM (LNP)"
+Individual: COVIGEN  # Generated from value "COVIGEN" located at cell 'Sheet1'!A47.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C47.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B47.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COVIGEN"
+Individual: BBV154  # Generated from value "BBV154" located at cell 'Sheet1'!A48.
+   Facts: hasTech "Adenovirus"  # Generated from value "Adenovirus" located at cell 'Sheet1'!C48.,
+         vaccineOf "India"  # Generated from value "India" located at cell 'Sheet1'!B48.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "BBV154"
+Individual: MV-014-212  # Generated from value "MV-014-212" located at cell 'Sheet1'!A49.
+   Facts: hasTech "Attenuated"  # Generated from value "Attenuated" located at cell 'Sheet1'!C49.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B49.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MV-014-212"
+Individual: S-268019  # Generated from value "S-268019" located at cell 'Sheet1'!A50.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C50.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B50.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "S-268019"
+Individual: GBP510  # Generated from value "GBP510" located at cell 'Sheet1'!A51.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C51.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B51.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GBP510"
+Individual: KBP-201  # Generated from value "KBP-201" located at cell 'Sheet1'!A52.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C52.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B52.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KBP-201"
+Individual: AdCLD-CoV19  # Generated from value "AdCLD-CoV19" located at cell 'Sheet1'!A53.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C53.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B53.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCLD-CoV19"
+Individual: AdimrSC-2f  # Generated from value "AdimrSC-2f" located at cell 'Sheet1'!A54.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C54.,
+         vaccineOf "Taiwan"  # Generated from value "Taiwan" located at cell 'Sheet1'!B54.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdimrSC-2f"
+Individual: AKS-452  # Generated from value "AKS-452" located at cell 'Sheet1'!A55.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C55.,
+         vaccineOf "Netherlands"  # Generated from value "Netherlands" located at cell 'Sheet1'!B55.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AKS-452"
+Individual: GLS-5310  # Generated from value "GLS-5310" located at cell 'Sheet1'!A56.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C56.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B56.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "GLS-5310"
+Individual: Covigenix VAX-001  # Generated from value "Covigenix VAX-001" located at cell 'Sheet1'!A57.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C57.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B57.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Covigenix VAX-001"
+Individual: COH04S1  # Generated from value "COH04S1" located at cell 'Sheet1'!A58.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C58.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B58.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "COH04S1"
+Individual: NBP2001  # Generated from value "NBP2001" located at cell 'Sheet1'!A59.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C59.,
+         vaccineOf "South Korea"  # Generated from value "South Korea" located at cell 'Sheet1'!B59.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "NBP2001"
+Individual: CoVac-1  # Generated from value "CoVac-1" located at cell 'Sheet1'!A60.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C60.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B60.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVac-1"
+Individual: bacTRL-Spike  # Generated from value "bacTRL-Spike" located at cell 'Sheet1'!A61.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C61.,
+         vaccineOf "Canada"  # Generated from value "Canada" located at cell 'Sheet1'!B61.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "bacTRL-Spike"
+Individual: CORVax12  # Generated from value "CORVax12" located at cell 'Sheet1'!A62.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C62.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B62.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CORVax12"
+Individual: ChAdV68-S  # Generated from value "ChAdV68-S" located at cell 'Sheet1'!A63.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C63.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B63.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ChAdV68-S"
+Individual: VXA-CoV2-1  # Generated from value "VXA-CoV2-1" located at cell 'Sheet1'!A64.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C64.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B64.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "VXA-CoV2-1"
+Individual: SpFN COVID-19 vaccine  # Generated from value "SpFN COVID-19 vaccine" located at cell 'Sheet1'!A65.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C65.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B65.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SpFN COVID-19 vaccine"
+Individual: MVA-SARS-2-S  # Generated from value "MVA-SARS-2-S" located at cell 'Sheet1'!A66.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C66.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B66.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "MVA-SARS-2-S"
+Individual: ReCOV  # Generated from value "ReCOV" located at cell 'Sheet1'!A67.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C67.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B67.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ReCOV"
+Individual: Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine  # Generated from value "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine" located at cell 'Sheet1'!A68.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C68.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B68.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Koçak-19 Inaktif Adjuvanlı COVID-19 vaccine"
+Individual: mRNA-1283  # Generated from value "mRNA-1283" located at cell 'Sheet1'!A69.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C69.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B69.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNA-1283"
+Individual: DS-5670  # Generated from value "DS-5670" located at cell 'Sheet1'!A70.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C70.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B70.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "DS-5670"
+Individual: CoV2-OGEN1  # Generated from value "CoV2-OGEN1" located at cell 'Sheet1'!A71.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C71.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B71.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoV2-OGEN1"
+Individual: KD-414  # Generated from value "KD-414" located at cell 'Sheet1'!A72.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C72.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B72.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "KD-414"
+Individual: CoVepiT  # Generated from value "CoVepiT" located at cell 'Sheet1'!A73.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C73.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B73.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CoVepiT"
+Individual: ABNCoV2  # Generated from value "ABNCoV2" located at cell 'Sheet1'!A74.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C74.,
+         vaccineOf "Denmark"  # Generated from value "Denmark" located at cell 'Sheet1'!B74.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "ABNCoV2"
+Individual: HDT-301  # Generated from value "HDT-301" located at cell 'Sheet1'!A75.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C75.,
+         vaccineOf "Brazil"  # Generated from value "Brazil" located at cell 'Sheet1'!B75.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "HDT-301"
+Individual: SC-Ad6-1  # Generated from value "SC-Ad6-1" located at cell 'Sheet1'!A76.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C76.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B76.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SC-Ad6-1"
+Individual: Phase I  # Generated from value "Phase I" located at cell 'Sheet1'!A77.
+   Facts: hasTech "Inactivated"  # Generated from value "Inactivated" located at cell 'Sheet1'!C77.,
+         vaccineOf "Turkey"  # Generated from value "Turkey" located at cell 'Sheet1'!B77.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I"
+Individual: EXG-5003  # Generated from value "EXG-5003" located at cell 'Sheet1'!A78.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C78.,
+         vaccineOf "Japan"  # Generated from value "Japan" located at cell 'Sheet1'!B78.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "EXG-5003"
+Individual: mRNACOVID-19 Vaccine  # Generated from value "mRNACOVID-19 Vaccine" located at cell 'Sheet1'!A79.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C79.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B79.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "mRNACOVID-19 Vaccine"
+Individual: IVX-411  # Generated from value "IVX-411" located at cell 'Sheet1'!A80.
+   Facts: hasTech "Virus-like particle"  # Generated from value "Virus-like particle" located at cell 'Sheet1'!C80.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B80.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "IVX-411"
+Individual: QazCoVac-P  # Generated from value "QazCoVac-P" located at cell 'Sheet1'!A81.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C81.,
+         vaccineOf "Kazakhstan"  # Generated from value "Kazakhstan" located at cell 'Sheet1'!B81.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "QazCoVac-P"
+Individual: LNP-nCOV saRNA-02  # Generated from value "LNP-nCOV saRNA-02" located at cell 'Sheet1'!A82.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C82.,
+         vaccineOf "Uganda"  # Generated from value "Uganda" located at cell 'Sheet1'!B82.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCOV saRNA-02"
+Individual: Noora  # Generated from value "Noora" located at cell 'Sheet1'!A83.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C83.,
+         vaccineOf "Iran"  # Generated from value "Iran" located at cell 'Sheet1'!B83.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Noora"
+Individual: Baiya SARS-CoV-2 Vax 1  # Generated from value "Baiya SARS-CoV-2 Vax 1" located at cell 'Sheet1'!A84.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C84.,
+         vaccineOf "Thailand"  # Generated from value "Thailand" located at cell 'Sheet1'!B84.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Baiya SARS-CoV-2 Vax 1"
+Individual: CVXGA1  # Generated from value "CVXGA1" located at cell 'Sheet1'!A85.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C85.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B85.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CVXGA1"
+Individual: Phase I–II  # Generated from value "Phase I–II" located at cell 'Sheet1'!A86.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C86.,
+         vaccineOf "North Korea"  # Generated from value "North Korea" located at cell 'Sheet1'!B86.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Phase I–II"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A87.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C87.,
+         vaccineOf "China"  # Generated from value "China" located at cell 'Sheet1'!B87.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: Vabiotech COVID-19 vaccine  # Generated from value "Vabiotech COVID-19 vaccine" located at cell 'Sheet1'!A88.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C88.,
+         vaccineOf "Vietnam"  # Generated from value "Vietnam" located at cell 'Sheet1'!B88.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Vabiotech COVID-19 vaccine"
+Individual: INO-4802  # Generated from value "INO-4802" located at cell 'Sheet1'!A89.
+   Facts: hasTech "DNA"  # Generated from value "DNA" located at cell 'Sheet1'!C89.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B89.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "INO-4802"
+Individual: Bangavax  # Generated from value "Bangavax" located at cell 'Sheet1'!A90.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C90.,
+         vaccineOf "Bangladesh"  # Generated from value "Bangladesh" located at cell 'Sheet1'!B90.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Bangavax"
+Individual: CV2CoV  # Generated from value "CV2CoV" located at cell 'Sheet1'!A91.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C91.,
+         vaccineOf "Germany"  # Generated from value "Germany" located at cell 'Sheet1'!B91.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "CV2CoV"
+Individual: Preclinical  # Generated from value "Preclinical" located at cell 'Sheet1'!A92.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C92.,
+         vaccineOf "Malaysia"  # Generated from value "Malaysia" located at cell 'Sheet1'!B92.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "Preclinical"
+Individual: AdCOVID  # Generated from value "AdCOVID" located at cell 'Sheet1'!A93.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C93.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B93.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "AdCOVID"
+Individual: LNP-nCoVsaRNA  # Generated from value "LNP-nCoVsaRNA" located at cell 'Sheet1'!A94.
+   Facts: hasTech "RNA"  # Generated from value "RNA" located at cell 'Sheet1'!C94.,
+         vaccineOf "United Kingdom"  # Generated from value "United Kingdom" located at cell 'Sheet1'!B94.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "LNP-nCoVsaRNA"
+Individual: TMV-083  # Generated from value "TMV-083" located at cell 'Sheet1'!A95.
+   Facts: hasTech "Viral vector"  # Generated from value "Viral vector" located at cell 'Sheet1'!C95.,
+         vaccineOf "France"  # Generated from value "France" located at cell 'Sheet1'!B95.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "TMV-083"
+Individual: SARS-CoV-2 Sclamp  # Generated from value "SARS-CoV-2 Sclamp" located at cell 'Sheet1'!A96.
+   Facts: hasTech "Subunit"  # Generated from value "Subunit" located at cell 'Sheet1'!C96.,
+         vaccineOf "Australia"  # Generated from value "Australia" located at cell 'Sheet1'!B96.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "SARS-CoV-2 Sclamp"
+Individual: V590  # Generated from value "V590" located at cell 'Sheet1'!A97.
+   Facts: hasTech "Vesicular stomatitis virus"  # Generated from value "Vesicular stomatitis virus" located at cell 'Sheet1'!C97.,
+         vaccineOf "United States"  # Generated from value "United States" located at cell 'Sheet1'!B97.,
+         hasStatus human_trials
+   Types: Vaccine
+   Annotations: rdfs:label "V590"
+
+===========================================================================================================

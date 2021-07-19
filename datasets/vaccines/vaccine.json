@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"C","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*(mm:prefix\u003d\"dbpedia\")\nTypes: Vaccine\nAnnotations: rdfs:label @A*\nFacts: hasTech @C*,\n            vaccineOf @B*,\n            hasStatus human_trials","active":true}]}
