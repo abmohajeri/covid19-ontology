@@ -229,6 +229,1876 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Afghanistan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Afghanistan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afghanistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Albania -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Albania">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Algeria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Algeria">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algeria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Andorra -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Andorra">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andorra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Angola -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Angola">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Anguilla -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Anguilla">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anguilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Antigua_and_Barbuda -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Antigua_and_Barbuda">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antigua and Barbuda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Argentina -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Argentina">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argentina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Armenia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Armenia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armenia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aruba -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aruba">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aruba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Australia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Australia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Austria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Austria">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Azerbaijan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Azerbaijan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azerbaijan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bahrain -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bahrain">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahrain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bangladesh -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bangladesh">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bangladesh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Barbados -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Barbados">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belarus -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Belarus">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belarus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belgium -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Belgium">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belgium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belize -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Belize">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belize</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Benin -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Benin">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bermuda -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bermuda">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bermuda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bhutan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bhutan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhutan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bolivia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bolivia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolivia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bosnia_and_Herzegovina -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bosnia_and_Herzegovina">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bosnia and Herzegovina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Botswana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Botswana">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Botswana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brazil -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Brazil">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/British_Virgin_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/British_Virgin_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British Virgin Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/British_occupation_of_the_Faroe_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/British_occupation_of_the_Faroe_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faeroe Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brunei -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Brunei">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brunei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bulgaria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bulgaria">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgaria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Burkina_Faso">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkina Faso</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Burundi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Burundi">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burundi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cambodia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cambodia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambodia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cameroon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cameroon">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cameroon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canada -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Canada">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cape_Verde -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cape_Verde">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabo Verde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cayman_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cayman_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayman Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Central_African_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Central_African_Republic">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Chad -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Chad">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Chile -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Chile">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/China -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/China">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Colombia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Colombia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Comoros -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Comoros">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comoros</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Costa_Rica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Costa_Rica">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costa Rica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Croatia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Croatia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croatia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cuba -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cuba">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Curaçao_and_Dependencies -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Curaçao_and_Dependencies">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curaçao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cyprus -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cyprus">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyprus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Czech_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Czech_Republic">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czechia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Democratic_Republic_of_the_Congo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Democratic_Republic_of_the_Congo">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congo</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Denmark -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Denmark">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denmark</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Djibouti -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Djibouti">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Djibouti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dominica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dominica">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dominican_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dominican_Republic">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominican Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/East_Timor -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/East_Timor">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timor-Leste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ecuador -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ecuador">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Egypt -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Egypt">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egypt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/El_Salvador -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/El_Salvador">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Equatorial_Guinea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Equatorial_Guinea">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equatorial Guinea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eritrea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eritrea">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eritrea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Estonia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Estonia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estonia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eswatini -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eswatini">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eswatini</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ethiopia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ethiopia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Federated_States_of_Micronesia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Federated_States_of_Micronesia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micronesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fiji -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fiji">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Finland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Finland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/France -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/France">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/French_Polynesia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/French_Polynesia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Polynesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gabon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gabon">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Geography_of_Saint_Pierre_and_Miquelon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Geography_of_Saint_Pierre_and_Miquelon">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Pierre Miquelon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Germany -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Germany">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germany</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ghana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ghana">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Greece -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Greece">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greece</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Greenland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Greenland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greenland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Grenada -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Grenada">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guatemala -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Guatemala">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guinea-Bissau -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Guinea-Bissau">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea-Bissau</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guyana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Guyana">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guyana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Haiti -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Haiti">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haiti</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turks and Caicos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Honduras -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Honduras">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honduras</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hong_Kong">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong Kong</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hungary -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hungary">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hungary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iceland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iceland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/India -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/India">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">India</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indonesia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Indonesia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indonesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iran -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iran">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iraq -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iraq">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Isle_of_Man -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Isle_of_Man">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isle of Man</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Israel -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Israel">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Israel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Italy -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Italy">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ivory_Coast -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ivory_Coast">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ivory Coast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jamaica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jamaica">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Japan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Japan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jordan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jordan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kazakhstan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kazakhstan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kazakhstan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kenya -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kenya">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kingdom_of_the_Netherlands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kingdom_of_the_Netherlands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caribbean Netherlands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kuwait -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kuwait">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kyrgyzstan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kyrgyzstan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyrgyzstan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Laos -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Laos">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Latvia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Latvia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latvia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lebanon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lebanon">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lesotho -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lesotho">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesotho</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Liberia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Liberia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liberia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Libya -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Libya">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Liechtenstein -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Liechtenstein">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lithuania -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lithuania">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lithuania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luxembourg -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Luxembourg">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxembourg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Macau -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Macau">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Madagascar -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Madagascar">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madagascar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malawi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malawi">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malawi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malaysia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malaysia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Maldives -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Maldives">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maldives</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mali -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mali">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mali</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malta -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malta">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mandatory_Palestine -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mandatory_Palestine">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palestine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Marshall_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Marshall_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshall Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mauritania -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mauritania">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mauritius -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mauritius">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mexico">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moldova -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Moldova">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moldova</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Monaco -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Monaco">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mongolia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mongolia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mongolia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Monsterrat -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Monsterrat">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montserrat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Montenegro -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Montenegro">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montenegro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Morocco -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Morocco">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morocco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mozambique -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mozambique">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozambique</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Myanmar -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Myanmar">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myanmar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Namibia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Namibia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Namibia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nepal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nepal">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nepal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Netherlands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Netherlands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Netherlands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/New_Zealand -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/New_Zealand">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Caledonia</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Zealand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nicaragua -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nicaragua">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Niger -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Niger">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niger</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nigeria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nigeria">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nigeria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/North_Macedonia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/North_Macedonia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Macedonia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Norway -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Norway">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norway</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Occupation_of_the_Falkland_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Occupation_of_the_Falkland_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falkland Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oman -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Oman">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pakistan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pakistan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pakistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Panama -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Panama">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Papua_New_Guinea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Papua_New_Guinea">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papua New Guinea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Paraguay -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Paraguay">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraguay</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Peru -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Peru">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peru</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Philippines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Philippines">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Poland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Poland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portugal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Portugal">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Qatar">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qatar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Republic_of_Ireland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Republic_of_Ireland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ireland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Romania -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Romania">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Russia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rwanda -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rwanda">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rwanda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sahrawi_Arab_Democratic_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sahrawi_Arab_Democratic_Republic">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western Sahara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Helena -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saint_Helena">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Helena</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Kitts_and_Nevis -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saint_Kitts_and_Nevis">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Kitts and Nevis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Lucia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saint_Lucia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Lucia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St. Vincent Grenadines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Samoa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Samoa">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/San_Marino -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/San_Marino">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Martin</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Marino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saudi_Arabia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Senegal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Senegal">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senegal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Serbia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Serbia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serbia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Seychelles -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Seychelles">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seychelles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sierra_Leone -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sierra_Leone">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra Leone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Singapore -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Singapore">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sint_Maarten -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sint_Maarten">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sint Maarten</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slovakia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Slovakia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slovenia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Slovenia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovenia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Solomon_Islands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Solomon_Islands">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solomon Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Somalia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Somalia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somalia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Africa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_Africa">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Africa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Korea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_Korea">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S. Korea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Sudan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_Sudan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Spain -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Spain">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibraltar</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sri_Lanka -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sri_Lanka">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sudan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sudan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Suriname -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Suriname">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suriname</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sweden -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sweden">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweden</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Switzerland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Switzerland">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Switzerland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Syria">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/São_Tomé_and_Príncipe -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/São_Tomé_and_Príncipe">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sao Tome and Principe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Taiwan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Taiwan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tajikistan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tajikistan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tajikistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tanzania -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tanzania">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanzania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thailand -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thailand">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thailand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/The_Bahamas -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/The_Bahamas">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahamas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/The_Gambia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/The_Gambia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gambia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Togo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Togo">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Togo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trinidad_and_Tobago -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trinidad_and_Tobago">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trinidad and Tobago</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tunisia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tunisia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tunisia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Turkey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Turkey">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uganda -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uganda">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uganda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ukraine">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ukraine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_Arab_Emirates -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_Arab_Emirates">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UAE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_Kingdom -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_Kingdom">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St. Barth</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uruguay -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uruguay">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uruguay</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uzbekistan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uzbekistan">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzbekistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vanuatu -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vanuatu">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanuatu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vatican_City -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vatican_City">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vatican City</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Venezuela -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Venezuela">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vietnam -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vietnam">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vietnam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Yemen -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Yemen">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yemen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zambia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Zambia">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zambia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zimbabwe -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Zimbabwe">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zimbabwe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Georgia_(country) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Georgia_(country)">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wallis_(island) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wallis_(island)">
+        <rdf:type rdf:resource="https://schema.org/Country"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wallis and Futuna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/emergency_use -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/emergency_use">
