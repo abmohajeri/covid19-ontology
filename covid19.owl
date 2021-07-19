@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid19="http://www.semanticweb.org/team1/ontologies/2021/covid19/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19"/>
     
 
@@ -71,7 +72,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasAirlineRestriction">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/hasRestriction"/>
-        <rdfs:domain rdf:resource="https://schema.org/Country"/>
+        <rdfs:domain rdf:resource="https://schema.org/Airline"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/AirlineRestriction"/>
     </owl:ObjectProperty>
     
@@ -405,11 +406,324 @@
     
 
 
+    <!-- http://dbpedia.org/resource/ASL_Airlines_Belgium -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/ASL_Airlines_Belgium">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Belgium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/ASL_Airlines_France -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/ASL_Airlines_France">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASL Airlines France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aer_Lingus_Regional -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aer_Lingus_Regional">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Republic_of_Ireland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aer Lingus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aeroflot -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aeroflot">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aeroflot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aerolíneas_Argentinas -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aerolíneas_Argentinas">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Argentina"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aerolineas Argentinas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aeroméxico_Connect -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aeroméxico_Connect">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mexico"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AeroMexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Afghanistan -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Afghanistan">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afghanistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/AirAsia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/AirAsia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Malaysia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AirAsia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/AirAsia_India -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/AirAsia_India">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AirAsia india</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Algérie -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Algérie">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Algeria"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Algerie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Antilles -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Antilles">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Guadeloupe"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Antilles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Antwerp -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Antwerp">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Antwerp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Arabia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Arabia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Arabia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Astana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Astana">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Kazakhstan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Astana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Austral -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Austral">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/R√©union"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Austral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Burkina -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Burkina">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Burkina_Faso"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Burkina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_China -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_China">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air China</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Corsica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Corsica">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Corsica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Deccan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Deccan">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Deccan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Dolomiti -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Dolomiti">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Italy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Dolomiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Europa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Europa">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Europa</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iberia, Vueling</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vueling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_France_Hop -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_France_Hop">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Greenland -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Greenland">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Greenland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Greenland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Iceland_Connect -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Iceland_Connect">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Iceland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Iceland Connect</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_India -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_India">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air India</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air india</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Kiribati -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Kiribati">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Kiribati"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Kiribati</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Malta -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Malta">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Malta"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Malta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Namibia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Namibia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Namibia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Namibia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Rarotonga -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Rarotonga">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/CookIslands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Rarotonga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Seoul -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Seoul">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Seoul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Air_Tahiti_Nui -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Air_Tahiti_Nui">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/French_Polynesia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Tahiti Nui</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alaska_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alaska_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -428,6 +742,46 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Algeria">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algeria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alitalia-Linee_Aeree_Italiane -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alitalia-Linee_Aeree_Italiane">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Italy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alitalia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Allegiant_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Allegiant_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allegiant Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/American_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/American_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/AnadoluJet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/AnadoluJet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Turkey"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AnadoluJet</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -495,11 +849,41 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Asian_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Asian_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aurigny -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aurigny">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aurigny</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Australia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Australia">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Australian_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Australian_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Austria"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austrian Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -513,6 +897,26 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Avianca_Ecuador -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Avianca_Ecuador">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Ecuador"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avianca Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Avianca_El_Salvador -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Avianca_El_Salvador">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Colombia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avianca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Azerbaijan -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Azerbaijan">
@@ -522,11 +926,61 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Azerbaijan_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Azerbaijan_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Azerbaijan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azerbajan Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Azul_Brazilian_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Azul_Brazilian_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Brazil"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/BRA_Transportes_Aéreos -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/BRA_Transportes_Aéreos">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Sweden"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Bahrain -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bahrain">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahrain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bamboo_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bamboo_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VietNam"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bangkok_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bangkok_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bangkok Airways</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -549,11 +1003,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Beijing_Capital_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Beijing_Capital_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beijing Capital Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Belarus -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Belarus">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belarus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belavia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Belavia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Belarus"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belavia</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -603,6 +1077,46 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Biman_Bangladesh_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Biman_Bangladesh_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bangladesh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biman Bangladesh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Binter_Canarias -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Binter_Canarias">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blue_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Blue_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Romania"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blue_Panorama_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Blue_Panorama_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Italy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue Panorama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Bolivia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bolivia">
@@ -639,6 +1153,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/British_Overseas_Airways_Corporation -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/British_Overseas_Airways_Corporation">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/British_Virgin_Islands -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/British_Virgin_Islands">
@@ -662,6 +1186,16 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Brunei">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brunei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brussels_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Brussels_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brussels Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -693,11 +1227,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Cabo_Verde_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cabo_Verde_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/CapeVerde"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabo Verde Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Cambodia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cambodia">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambodia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cambodia_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cambodia_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Cambodia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambodia Airways</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -720,6 +1274,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Canadian_North -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Canadian_North">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canadian North</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Cape_Verde -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cape_Verde">
@@ -729,11 +1293,41 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Catovair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Catovair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mauritius"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Mauritius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cayman_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cayman_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Cayman_Islands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayman Airways Express</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Cayman_Islands -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cayman_Islands">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayman Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cebgo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cebgo">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Philippines"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippine Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -756,6 +1350,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Chair_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Chair_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Switzerland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Chile -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Chile">
@@ -774,6 +1378,38 @@
     
 
 
+    <!-- http://dbpedia.org/resource/China_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/China_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/China_Eastern_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/China_Eastern_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China Eastern</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastern Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/China_Southern_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/China_Southern_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China Southern</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Colombia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Colombia">
@@ -783,11 +1419,61 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Comair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Comair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/South_Africa"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Comoros -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Comoros">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comoros</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Contour_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Contour_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contour Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Copa_Airlines_Colombia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Copa_Airlines_Colombia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Panama"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COPA Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Corendon_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Corendon_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Turkey"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corredon Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Corsair_International -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Corsair_International">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corsair</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -810,11 +1496,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Croatia_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Croatia_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Croatia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croatia Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Cuba -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cuba">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cubana_de_Aviación -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cubana_de_Aviación">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Cuba"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubana de Aviacion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -837,11 +1543,41 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Cyprus_Turkish_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cyprus_Turkish_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Turkey"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Czech_Republic -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Czech_Republic">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czechia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dana_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dana_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Nigeria"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dana Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Delta_Air_Lines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Delta_Air_Lines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -892,11 +1628,52 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Druk_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Druk_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bhutan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Druk Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/EVA_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/EVA_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVA Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/East_Timor -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/East_Timor">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timor-Leste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eastar_Jet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eastar_Jet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastar Jet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/EasyJet_UK -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/EasyJet_UK">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EasyJet</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easyJet</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -919,11 +1696,51 @@
     
 
 
+    <!-- http://dbpedia.org/resource/EgyptAir -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/EgyptAir">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Egypt"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EgyptAir</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/El_Al -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/El_Al">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Israel"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL AL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/El_Salvador -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/El_Salvador">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Elite_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Elite_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elite Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emirates_SkyCargo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Emirates_SkyCargo">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emirates</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -973,6 +1790,46 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Ethiopian_Mozambique_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ethiopian_Mozambique_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Ethiopia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Etihad_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Etihad_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiad Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eurowings -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eurowings">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eurowings</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fastjet_Zimbabwe -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fastjet_Zimbabwe">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Zimbabwe"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fastjet Zimbabwe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Federated_States_of_Micronesia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Federated_States_of_Micronesia">
@@ -991,11 +1848,71 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Fiji_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fiji_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Fiji"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fiji_Link -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fiji_Link">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Fiji"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji Link</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Finland -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Finland">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FitsAir -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FitsAir">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Finland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finnair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Flair_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Flair_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flair Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FlyMe -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FlyMe">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Maldives"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flyme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Flydubai -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Flydubai">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flydubai</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1009,11 +1926,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Freedom_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Freedom_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/NewZealand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air New Zealand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/French_Polynesia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/French_Polynesia">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Polynesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fuji_Dream_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fuji_Dream_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuji Dream Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1050,6 +1987,26 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ghana">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/GoAir -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/GoAir">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GoAir</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Grand_China_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Grand_China_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Colombia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCA Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1099,11 +2056,41 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Gulf_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gulf_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bahrain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gulf Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Guyana -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Guyana">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guyana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/HK_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/HK_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Hong_Kong"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HK Express</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hainan_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hainan_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainan Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1114,6 +2101,56 @@
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haiti</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turks and Caicos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Harbour_Air_Seaplanes -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Harbour_Air_Seaplanes">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harbour Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hawaiian_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hawaiian_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaiian Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/HiSky -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/HiSky">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfMoldova"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HiSky</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Himalaya_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Himalaya_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Nepal"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Himalaya Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Holidays_Czech_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Holidays_Czech_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Czech_Republic"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czech Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1136,6 +2173,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Hong_Kong_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hong_Kong_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Hong_Kong"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong Kong Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Hungary -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hungary">
@@ -1145,11 +2192,51 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Iberia_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iberia_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iberia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ibom_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ibom_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Nigeria"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ibom Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Iceland -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iceland">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Icelandair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Icelandair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Iceland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icelandair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/IndiGo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/IndiGo">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IndiGo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1172,11 +2259,41 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Indonesia_AirAsia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Indonesia_AirAsia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indonesia AirAsia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Interjet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interjet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mexico"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interjet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Iran -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iran">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iran_Airtour -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iran_Airtour">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Iran(IslamicRepublicof)"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iran Air</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1226,11 +2343,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/JAL_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/JAL_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Jamaica -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jamaica">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jambojet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jambojet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Kenya"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jambojet</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1244,11 +2381,104 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Jat_Airways_AVIO_taxi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jat_Airways_AVIO_taxi">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Serbia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Serbia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jet2.com -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jet2.com">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jet2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/JetAmerica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/JetAmerica">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun Country Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/JetBlue -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/JetBlue">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JetBlue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jetstar_Asia_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jetstar_Asia_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jetstar</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jetstar Asia</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qantas, Jetstar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jonika_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jonika_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Ukraine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonika Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Jordan -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jordan">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Juneyao_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Juneyao_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juneyao Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/KLM_Cityhopper -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/KLM_Cityhopper">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Netherlands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KLM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/KLM_Interinsulair_Bedrijf -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/KLM_Interinsulair_Bedrijf">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garuda Indonesia</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1271,11 +2501,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Kenya_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kenya_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Kenya"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Kingdom_of_the_Netherlands -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kingdom_of_the_Netherlands">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caribbean Netherlands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Korean_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Korean_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean Air</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1289,11 +2539,101 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Kuwait_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kuwait_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Kuwait"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Kyrgyzstan -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kyrgyzstan">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyrgyzstan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LAM_Mozambique_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LAM_Mozambique_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mozambique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LATAM_Cargo_Brasil -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LATAM_Cargo_Brasil">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Brazil"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LATAM Brasil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LATAM_Cargo_Chile -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LATAM_Cargo_Chile">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Chile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LATAM Chile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LATAM_Colombia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LATAM_Colombia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Chile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LATAM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LIAT -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LIAT">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Guyana"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/LOT_Charters -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/LOT_Charters">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Poland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/La_Compagnie -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/La_Compagnie">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Compagnie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lanmei_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lanmei_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Cambodia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanmei Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1361,11 +2701,62 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Lion_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lion_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Malaysia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lion Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Lithuania -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lithuania">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lithuania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Loganair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Loganair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loganair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luftfahrtgesellschaft_Walter -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Luftfahrtgesellschaft_Walter">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luftfahrgesellschaft Walter (LGW)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lufthansa_Cargo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lufthansa_Cargo">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lufthansa</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luthansa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luxair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Luxair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Luxembourg"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxair</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1384,6 +2775,16 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Macau">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Macau_Air_Transport_Company -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Macau_Air_Transport_Company">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Macau"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Macau</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1433,11 +2834,40 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Malindo_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malindo_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Malaysia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malindo Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Malta -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malta">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malév_Hungarian_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malév_Hungarian_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Latvia"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aegean, Lufthansa, Pegasus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pobeda</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RavnAir Alaska</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Airlines Japan</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StarFlyer</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airBaltic</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1487,6 +2917,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/MidAtlantic_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/MidAtlantic_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/FaroeIslands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlantic Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Moldova -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Moldova">
@@ -1532,6 +2972,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Montenegro_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Montenegro_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montenegro Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Morocco -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Morocco">
@@ -1564,6 +3014,16 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Namibia">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Namibia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nauru_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nauru_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Nauru"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nauru Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1623,6 +3083,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Nok_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nok_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nok Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/North_Macedonia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/North_Macedonia">
@@ -1641,11 +3111,42 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Norwegian_Air_Lines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Norwegian_Air_Lines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Norway"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norwegian</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAS (Norway)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nouvelair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nouvelair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Tunisia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nouvelair Tunisie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Occupation_of_the_Falkland_Islands -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Occupation_of_the_Falkland_Islands">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falkland Islands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Olympic_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Olympic_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Greece"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olympic Air</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1659,11 +3160,53 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Oman_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Oman_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Oman"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oman Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pacific_Coastal_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pacific_Coastal_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pacific Coastal</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pacific Costal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pacific_Southwest_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pacific_Southwest_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southwest Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Pakistan -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pakistan">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pakistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pakistan_International_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pakistan_International_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Pakistan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIA</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1696,6 +3239,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Peach_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Peach_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Peru -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Peru">
@@ -1714,11 +3267,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Philippines_AirAsia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Philippines_AirAsia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Philippines"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippine AirAsia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Poland -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Poland">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Porter_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Porter_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porter Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1732,11 +3305,52 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Proflight_Zambia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Proflight_Zambia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Zambia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProFlight Zambia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/QantasLink -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/QantasLink">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qantas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Qatar -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Qatar">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qatar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Qatar_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Qatar_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Qatar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qatar</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qatar Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Regional_Express_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Regional_Express_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regional Express</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1759,6 +3373,46 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Rossiya_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rossiya_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossiya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Royal_Air_Maroc_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Royal_Air_Maroc_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Morocco"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Royal Air Maroc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Royal_Brunei_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Royal_Brunei_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/BruneiDarussalam"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Royal Brunei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Royal_Jordanian -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Royal_Jordanian">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Jordan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Royal Jordanian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Russia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Russia">
@@ -1768,11 +3422,71 @@
     
 
 
+    <!-- http://dbpedia.org/resource/RwandAir -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/RwandAir">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Rwanda"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rwandair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Rwanda -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rwanda">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rwanda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ryan_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ryan_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Ukraine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryan Air (Italy-Ukraine)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/S7_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/S7_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/SAS_Braathens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/SAS_Braathens">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Denmark"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/SAS_Commuter -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/SAS_Commuter">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Sweden"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAS (Sweden)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/SCAT_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/SCAT_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Kazakhstan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCAT Air Company</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1831,6 +3545,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Samoa_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Samoa_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Samoa"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoa Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/San_Marino -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/San_Marino">
@@ -1850,11 +3574,31 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Saudia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Saudia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Saudi_Arabia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Senegal -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Senegal">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senegal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Senegal_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Senegal_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Senegal"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Senegal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1877,11 +3621,61 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Seychelles_International_Safari_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Seychelles_International_Safari_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Seychelles"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Seychelles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shandong_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Shandong_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shandong Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shanghai_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Shanghai_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanghai Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sichuan_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sichuan_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Sierra_Leone -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sierra_Leone">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra Leone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Silver_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Silver_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Airways</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1904,6 +3698,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Sky_Airline -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sky_Airline">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Chile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SKY</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Slovakia -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Slovakia">
@@ -1918,6 +3722,16 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Slovenia">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovenia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Solomon_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Solomon_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Solomon_Islands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solomon Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1945,6 +3759,26 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_Africa">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Africa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_African_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_African_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/South_Africa"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_African_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_African_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/South_Africa"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Express</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1977,11 +3811,61 @@
     
 
 
+    <!-- http://dbpedia.org/resource/SpiceJet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/SpiceJet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicejet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Spirit_of_Manila_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Spirit_of_Manila_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirit Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Spring_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Spring_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/SriLankan_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/SriLankan_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Sri_Lanka"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SriLankan Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Sri_Lanka -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sri_Lanka">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Suckling_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Suckling_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoot</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2013,6 +3897,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Swiss_International_Air_Lines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Swiss_International_Air_Lines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Switzerland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Switzerland -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Switzerland">
@@ -2036,6 +3930,56 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/São_Tomé_and_Príncipe">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sao Tome and Principe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/TAAG_Angola_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/TAAG_Angola_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Angola"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAAG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/TAP_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/TAP_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Portugal"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/TAROM -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/TAROM">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Romania"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAROM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/TUI_fly_Belgium -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/TUI_fly_Belgium">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TUI Airlines Belgium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/TUI_fly_Netherlands -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/TUI_fly_Netherlands">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Republic_of_Ireland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TUI</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2067,6 +4011,56 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Thai_AirAsia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thai_AirAsia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai AirAsia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thai_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thai_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai Airways International</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thai_Lion_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thai_Lion_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai Lion Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thai_Smile -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thai_Smile">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai Smile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thai_Vietjet_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thai_Vietjet_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Thailand"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai VietJet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Thailand -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thailand">
@@ -2094,6 +4088,26 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Tigerair_Australia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tigerair_Australia">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tigerair Australia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tigerair_Taiwan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tigerair_Taiwan">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tigerair Taiwan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Togo -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Togo">
@@ -2103,11 +4117,61 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Trans-Canada_Air_Lines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trans-Canada_Air_Lines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air Canada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trans_Maldivian_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trans_Maldivian_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Maldives"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maldivian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Transavia_Denmark -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Transavia_Denmark">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Netherlands"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transavia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Transavia_France -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Transavia_France">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/France"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transavia France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Trinidad_and_Tobago -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trinidad_and_Tobago">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trinidad and Tobago</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tunisair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tunisair">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Tunisia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tunisair</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2130,6 +4194,26 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Turkmenistan_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Turkmenistan_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Turkmenistan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkmenistan Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/US-Bangla_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/US-Bangla_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bangladesh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US Bangla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Uganda -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uganda">
@@ -2139,11 +4223,43 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Uganda_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uganda_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Uganda"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uganda Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Ukraine -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ukraine">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ukraine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ukraine_International_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ukraine_International_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Ukraine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UIA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Guam"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trans States Airlines</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2176,6 +4292,16 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Ural_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ural_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ural Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Uruguay -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uruguay">
@@ -2190,6 +4316,16 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uzbekistan">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzbekistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uzbekistan_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uzbekistan_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Uzbekistan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzbekistan Airways</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2221,11 +4357,159 @@
     
 
 
+    <!-- http://dbpedia.org/resource/VietJet_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/VietJet_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VietNam"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VietJet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Vietnam -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vietnam">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vietnam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vietnam_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vietnam_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/VietNam"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viet Nam Airlines</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vietnam Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Virgin_Atlantic -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Virgin_Atlantic">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK Virgin Atlantic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Virgin_Australia_Regional_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Virgin_Australia_Regional_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virgin Australia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vistara -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vistara">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/India"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vistara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/VivaAerobús -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/VivaAerobús">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mexico"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vivaaerobus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Volaris -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Volaris">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Mexico"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volaris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Volotea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Volotea">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Italy"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volotea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/WebJet_Linhas_Areas -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/WebJet_Linhas_Areas">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Brazil"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/West_Jet -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/West_Jet">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Jet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Western_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Western_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Hong_Kong"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cathay Pacific</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Windrose_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Windrose_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Croatia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wind Rose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wizz_Air_Bulgaria -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wizz_Air_Bulgaria">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Austria"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Bulgaria"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Hungary"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Israel"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Romania"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgaria Air</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wizz</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wizz Air</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/XiamenAir -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/XiamenAir">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/China"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiamen Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2248,11 +4532,81 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Zambia_Airways -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Zambia_Airways">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Zambia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zambia Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Zimbabwe -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Zimbabwe">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zimbabwe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/ANA_&amp;_JP_Express -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/ANA_&amp;_JP_Express">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Azimuth_(airline) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Azimuth_(airline)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azimuth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Buzz_(Ryanair) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Buzz_(Ryanair)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Republic_of_Ireland"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryanair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Compass_Airlines_(North_America) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Compass_Airlines_(North_America)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compass Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Condor_(airline) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Condor_(airline)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Frontier_Airlines_(1950–1986) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Frontier_Airlines_(1950–1986)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontier Airlines</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2266,12 +4620,146 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Malaysia–Singapore_Airlines -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Malaysia–Singapore_Airlines">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Malaysia"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia Airlines</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore Airlines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swoop_(airline) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Swoop_(airline)">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swoop</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/T&apos;way_Air -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/T&apos;way_Air">
+        <rdf:type rdf:resource="https://schema.org/Airline"/>
+        <covid19:airlineOf rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T&apos;Way</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dbpedia.org/resource/Wallis_(island) -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wallis_(island)">
         <rdf:type rdf:resource="https://schema.org/Country"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wallis and Futuna</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/BruneiDarussalam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/BruneiDarussalam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/CapeVerde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/CapeVerde"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/CookIslands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/CookIslands"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/FaroeIslands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/FaroeIslands"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Guadeloupe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Guadeloupe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Guam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Guam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Kiribati -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Kiribati"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Nauru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Nauru"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/NewZealand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/NewZealand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfKorea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfMoldova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/RepublicOfMoldova"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/RussianFederation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Spain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Turkmenistan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Turkmenistan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedArabEmirates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedStatesOfAmerica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/VietNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/VietNam"/>
     
 
 
@@ -2296,6 +4784,24 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/human_trials">
         <rdf:type rdf:resource="http://www.semanticweb.org/team1/ontologies/2021/covid19/Status"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/Iran(IslamicRepublicof) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/Iran(IslamicRepublicof)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/R√©union -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/R√©union"/>
+    
+
+
+    <!-- http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/team1/ontologies/2021/covid19/UnitedKingdomOfGreatBritain&amp;NorthernIreland"/>
     
 
 
