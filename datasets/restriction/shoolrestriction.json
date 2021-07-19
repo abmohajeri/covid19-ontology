@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"D","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*(mm:printf(\"%sSchoolRestriction_%s\", @A*, @E*))\ntypes: SchoolRestriction\nFacts: schoolRestrictionOf @A*,\n            Notes @C*,\n            RestrictionDate @B*(xsd:date)","active":true}]}
