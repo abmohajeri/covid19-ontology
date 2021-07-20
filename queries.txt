@@ -1,0 +1,59 @@
+########### All Vaccines In Iran
+PREFIX : <http://www.semanticweb.org/team1/ontologies/2021/covid19/>
+PREFIX sch: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?x ?y
+WHERE { 
+    ?x a :Vaccine; 
+         :vaccineOf ?y. 
+    ?y rdfs:label "Iran"^^xsd:string
+}
+
+########### Countries with more than 100,000 deaths
+PREFIX : <http://www.semanticweb.org/team1/ontologies/2021/covid19/>
+PREFIX sch: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?country ?deaths
+WHERE {
+    ?country a :CountryWiseStatistics.
+    ?country :Death ?deaths.
+    FILTER (?deaths > 100000).
+}
+
+
+########### Schools with restriction applied
+PREFIX : <http://www.semanticweb.org/team1/ontologies/2021/covid19/>
+PREFIX sch: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?restriction
+WHERE {
+    ?restriction a :SchoolRestriction.
+    ?restriction :Notes ?note.
+    FILTER (!regex(?note, "no restriction applied", "i"))
+}
+
+########### List of restricted airlines because of covid
+PREFIX : <http://www.semanticweb.org/team1/ontologies/2021/covid19/>
+PREFIX sch: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?airline
+WHERE {
+    ?restriction a :AirlineRestriction;
+                       :airlineRestrictionOf ?airline;   
+                       :RestrictionDate ?date.
+}
+
+
+########### Count of vaccine made
+PREFIX : <http://www.semanticweb.org/team1/ontologies/2021/covid19/>
+PREFIX sch: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT COUNT(?vaccine)
+WHERE {
+    ?vaccine a :Vaccine
+}
